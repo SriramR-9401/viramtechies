@@ -1,0 +1,86 @@
+.heading {
+	width: 320px;
+	color: white;
+	border-radius: 10px 10px 10px 10px;
+}
+.img-thumbnail {
+	width: 250px;
+	height: 250px;
+}
+@media (max-width: 501px) {
+	.carousel {
+		.carousel-inner img {
+			height: 50vw;
+			width: 60vw;
+			margin: auto;
+		}
+		width: 65vw;
+	}
+	.sizing {
+		width: 65vw;
+	}
+	iframe {
+		height: 45vh;
+	}
+}
+@media (min-width: 501px) and (max-width: 651px) {
+	.carousel {
+		.carousel-inner img {
+			height: 250px;
+			width: 320px;
+			margin: auto;
+		}
+		width: 320px;
+	}
+	.sizing {
+		width: 320px;
+	}
+	iframe {
+		height: 290px;
+	}
+}
+@media (min-width: 651px) and (max-width: 751px) {
+	.carousel {
+		.carousel-inner img {
+			height: 260px;
+			width: 350px;
+			margin: auto;
+		}
+		width: 350px;
+	}
+	.sizing {
+		width: 350px;
+	}
+	iframe {
+		height: 300px;
+	}
+}
+@media (min-width: 751px) and (max-width: 955px) {
+	.carousel {
+		.carousel-inner img {
+			height: 340px;
+			width: 460px;
+			margin: auto;
+		}
+		width: 460px;
+	}
+	.sizing {
+		width: 460px;
+	}
+	iframe {
+		height: 400px;
+	}
+}
+@media (min-width: 955px) {
+	.carousel {
+		.carousel-inner img {
+			height: 400px;
+			width: 550px;
+			margin: auto;
+		}
+		width: 550px;
+	}
+	.sizing {
+		width: 550px;
+	}
+}
